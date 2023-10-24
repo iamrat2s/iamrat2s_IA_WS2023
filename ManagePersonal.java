@@ -1,3 +1,4 @@
+//The provided ManagePersonal interface does not entirely fulfill the CRUD (Create, Read, Update, Delete) pattern. We  should implement the missing operations like Update and Delete if they are needed in our application
 
 public interface ManagePersonal {
 
