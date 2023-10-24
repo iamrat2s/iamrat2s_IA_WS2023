@@ -1,0 +1,21 @@
+
+public interface ManagePersonal {
+
+    public void createSalesMan(SalesMan record);
+
+    public void updateSalesMan(int sid, SalesMan record);
+
+    public void deleteSalesMan(int sid);
+
+    public void addPerformanceRecord(EvaluationRecord record, int sid);
+
+    public void updatePerformanceRecord(int sid, EvaluationRecord record);
+
+    public void deletePerformanceRecord(int sid);
+
+    public SalesMan readSalesMan(int sid);
+
+    public List<SalesMan> querySalesMan(String attribute, String key);
+
+    public List<EvaluationRecord> readEvaluationRecords(int sid);
+}
